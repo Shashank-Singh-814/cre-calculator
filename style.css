@@ -1,0 +1,19 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+label {
+  font-weight: 500;
+}
+
+.btn {
+  border-radius: 10px;
+}
