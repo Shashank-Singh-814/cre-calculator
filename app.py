@@ -117,5 +117,9 @@ def cstr():
 def pfr():
     return "<h1 style='text-align: center;'>PFR Module Coming Soon</h1>"
 
+import os
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host='0.0.0.0', port=port)
+)
